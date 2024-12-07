@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Cairo:wght@400;500;600;700&family=Readex+Pro:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&family=Vazirmatn:wght@400;500;600;700&family=Tajawal:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.noto-sans {
+  font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+.ibm-plex {
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+.cairo {
+  font-family: 'Cairo', sans-serif;
+}
+
+.readex {
+  font-family: 'Readex Pro', sans-serif;
+}
+
+.rubik {
+  font-family: 'Rubik', sans-serif;
+}
+
+.vazirmatn {
+  font-family: 'Vazirmatn', sans-serif;
+}
+
+.tajawal {
+  font-family: 'Tajawal', sans-serif;
+}
+
+/* RTL Support */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .ml-2 {
+  margin-left: 0;
+  margin-right: 0.5rem;
+}
+
+[dir="rtl"] .mr-3 {
+  margin-right: 0;
+  margin-left: 0.75rem;
+}

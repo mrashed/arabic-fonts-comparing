@@ -33,4 +33,4 @@ export interface DashboardProps {
   fontClass: string;
 }
 
-export type FontVariant = 'cairo' | 'noto-sans' | 'ibm-plex' | 'readex' | 'rubik' | 'vazirmatn' | 'tajawal';
+export type FontVariant = 'cairo' | 'noto-sans' | 'ibm-plex' | 'readex' | 'rubik' | 'vazirmatn' | 'tajawal' | 'alexandria' ;

@@ -14,6 +14,7 @@ export const Navigation = ({ currentFont, onFontChange }: NavigationProps) => {
     { id: 'rubik', label: 'Rubik' },
     { id: 'vazirmatn', label: 'Vazirmatn' },
     { id: 'tajawal', label: 'Tajawal' },
+    { id: 'alexandria', label: 'Alexandria' },
   ];
 
   return (
